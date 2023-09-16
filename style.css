@@ -1,0 +1,83 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/56a867d3df40f3b3891a5dd1/1538631918104-AATAYDZPAH091ULFV1MK/graduation.jpg?format=2500w);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.first {
+    display: flex;
+    padding-top: 15px;
+   
+
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    
+}
+
+#search {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+#search-button{
+
+    
+    height: 35px;
+    width: 70px;
+
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+#search-button:hover {
+    background-color: #0056b3;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+}
